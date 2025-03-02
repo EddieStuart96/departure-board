@@ -1,5 +1,5 @@
 import React from "react";
-import DepartureBoard from "./DepartureBoard/departureBoard";
+import DepartureBoard from "./DepartureBoard/departureBoard.js";
 
 const App = () => {
   return (

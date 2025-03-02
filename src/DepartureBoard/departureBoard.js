@@ -1,6 +1,9 @@
 import React from "react";
+import { useFlightsForToday } from "../hooks/useFlightStatus.js";
 
 const DepartureBoard = () => {
+  const { data, loading, error } = useFlightsForToday("JFK");
+  console.log("🚀🚀🚀", data);
   return (
     <div
       style={{
